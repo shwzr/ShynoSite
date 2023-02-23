@@ -32,6 +32,7 @@ body {
 
 /* Main Infos */
 
+
 section.main {
     display: flex;
     flex-direction: column;
@@ -43,6 +44,7 @@ section.main {
 
 .icon {
     margin: 10px 0;
+    border-radius: 20%;
 }
 
 .icon ul {
@@ -55,6 +57,7 @@ section.main {
 
 .icon ul li {
     list-style-type: none;
+
 }
 
 .icon ul li a {
@@ -69,6 +72,7 @@ section.main {
     border: 3px solid #3b3d4e93;
     margin: 5px;
     transition: 0.3s all;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
 }
 
 .icon ul li a img:hover {
@@ -76,18 +80,32 @@ section.main {
     transition: 0.3s all;
 }
 
+section.main .shyno{
+    border-radius: 10%;
+}
+
 
 section.main .shyno span {
     font-size: 40px;
     font-weight: bold;
+    text-shadow: 2px 2px 6px white;
 }
+
+
 
 section.main .shyno p {
     font-size: 15px;
     color: #a7a9be;
 }
 
+section.main .shyno p:hover {
+    font-size: 15px;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
 section.main .shyno .content .button-discord {
+    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
     width: 200px;
     margin-top: 20px;
     padding: 10px;
