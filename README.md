@@ -10,7 +10,7 @@
 
 ## 📱 Demo
 
-<img src="https://github.com/shwzr/shyno-site/src/demo.png" style="width: 80%">
+<img src="src/demo.png" style="width: 80%">
 
 ## 👤 Author
 
