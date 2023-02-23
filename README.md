@@ -1,4 +1,4 @@
-<h1 align="center">shynonime-site <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
+<h1 align="center">shynonime-site</h1>
 
 <p>
   <a href="https://twitter.com/Showzur" target="_blank">
@@ -6,19 +6,11 @@
   </a>
 </p>
 
-> Just a little .py file that generates discord nitro. 
+> To put it simply, this is a portal to enter my discord server Shynonime. 
 
-##  👇 Downloads
+## 📱 Demo
 
-[<img src="https://github.com/machiav3lli/oandbackupx/blob/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" alt="Get it on GitHub" height="65">](https://github.com/shwzr/discord-nitro-gen/releases/latest) Wait...
-
-## 🚀 Usage
-
-```sh
-python discord-nitro-gen.py
-```
-or
-simply click on the start.bat file
+<img alt="demo" src="src/demo.png"/>
 
 ## 👤 Author
 
