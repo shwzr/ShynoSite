@@ -10,7 +10,7 @@
 
 ## 📱 Demo
 
-<img src="src/demo.png">
+<img src="">
 
 ## 👤 Author
 
