@@ -10,7 +10,7 @@
 
 ## 📱 Demo
 
-<img src="src/demo.png" style="width: 100%">
+<img src="src/demo.png">
 
 ## 👤 Author
 
