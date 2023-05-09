@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> To put it simply, this is a portal to enter my discord server Shynonime. 
+> This is a portal to enter my discord server Shynonime.
 
 ## 📱 Demo
 
