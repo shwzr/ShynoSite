@@ -1,43 +1,74 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <!-- Meta Tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="https://cdn.glitch.global/3acfe6f7-694b-4ba4-9045-388fc2559288/jibril.png?v=1677122975324">
-    <title>Shynonime</title>
-    <!-- Css -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DiscordToolbox</title>
+    <link rel="icon" type="image/png" href="assets/img/discord.png">
+    <link href="https://fonts.googleapis.com/css2?family=Whitney:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
-</head>
-<body>
-  <div class="back">
-    <section class="main">
-        <div class="shyno">
-            <div class="icon">
-                <ul>
-                    <li>
-                        <a target="_blank" href="https://discord.gg/invite/UHy8mZsNh8">
-                            <img src="https://cdn.glitch.global/3acfe6f7-694b-4ba4-9045-388fc2559288/shynonime.gif?v=1677120959367" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </header>
-            <span>Shynonime</span>
-            <p>Le serveur Discord pour regarder des animés.</p>
-            <div class="content">
-                <ul><a class="button-discord" target="_blank" href="https://discord.gg/invite/UHy8mZsNh8">Rejoindre!</a></ul>
-            </div>
-        </div>
-    </section>
-
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><h1>DiscordToolbox</h1></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="webhook.html">Gérer les Webhooks</a></li>
+            <li><a href="token.html">Vérifier le Token</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h2>Bienvenue sur DiscordToolbox</h2>
+        <p>Cet outil vous permet de gérer vos webhooks Discord, de tester votre token et bien plus encore.</p>
+        <p>Pour commencer, choisissez l'une des options ci-dessous :</p>
+        <ul>
+          <li><a href="webhook.html">Gérer les Webhooks</a></li>
+          
+        </ul>
+        <ul>
+          <li><a href="token.html">Tester le Token</a></li>
+        </ul>
+      </div>
+    </main>
     <footer>
-        Créé par <a href="https://www.youtube.com/@showzur/">Showzur</a>
+      <div class="container">
+        <p>&copy; 2023 <a href="https://github.com/shwzr">Showzur</a></p>
+      </div>
     </footer>
-    </div>
-</body>
- 
+    <script>
+      // Fonction pour définir un cookie
+      function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+          var date = new Date();
+          date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+          expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+      }
+
+      // Fonction pour récupérer la valeur d'un cookie
+      function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+      }
+
+      // Vérifie si un cookie "visited" existe
+      if (!getCookie("visited")) {
+        // Si non, définit le cookie et affiche une alerte de bienvenue
+        setCookie("visited", true, 365);
+        alert("Bienvenue sur DiscordToolbox !");
+      }
+    </script>
+  </body>
 </html>

@@ -1,4 +1,4 @@
-<h1 align="center">shynonime-site</h1>
+<h1 align="center">DiscordToolbox</h1>
 
 <p>
   <a href="https://twitter.com/Showzur" target="_blank">
@@ -6,11 +6,17 @@
   </a>
 </p>
 
-> This is a portal to enter my discord server Shynonime.
+> A HTML/CSS/JS development that allows you to manage the webhooks of your Discord server, and much more!
 
-## 📱 Demo
+<<<<<<< HEAD
+<img alt="DiscordToolbox" src="assets/img/demo.png">
+=======
+<img alt="DiscordToolbox" src="assets/img/illustration.png">
+>>>>>>> 5266f5d6d3c478986d11fc67eae8eeee8db2bd8d
 
-<img src="src/demo.png">
+## 🚀 Usage
+
+To use this project, you can simply open the index.html file in your preferred web browser. You'll then be able to explore the various functionalities of the project in an intuitive way thanks to the user-friendly interface. No particular technical knowledge is required to use this project.
 
 ## 👤 Author
 
@@ -26,7 +32,6 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2022 [Showzur](https://github.com/shwzr).<br />
+Copyright © 2023 [Showzur](https://github.com/shwzr).<br />
 
 ***
- 
