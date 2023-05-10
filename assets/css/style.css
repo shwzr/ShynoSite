@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Reset */
+
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 7px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+}
+
+
+body {
+    background-color: #160f19;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+
+/* Main Infos */
+
+
+section.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 70vh;
+}
+
+.icon {
+    margin: 10px 0;
+    border-radius: 20%;
+}
+
+.icon ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon ul li {
+    list-style-type: none;
+
+}
+
+.icon ul li a {
+    outline: none;
+    text-decoration: none;
+}
+
+.icon ul li a img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 3px solid #3b3d4e93;
+    margin: 5px;
+    transition: 0.3s all;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+}
+
+.icon ul li a img:hover {
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+
+section.main .shyno{
+    border-radius: 10%;
+}
+
+
+section.main .shyno span {
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px white;
+}
+
+
+
+section.main .shyno p {
+    font-size: 15px;
+    color: #a7a9be;
+}
+
+section.main .shyno p:hover {
+    font-size: 15px;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+section.main .shyno .content .button-discord {
+    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fffffe;
+    text-decoration: none;
+    background-color: #bc2a45;
+    border-style: none;
+    border: .5px solid #2e2f3e;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+section.main .shyno .content .button-discord:hover {
+    transition: 0.3s all;
+    background-color: #d35670;
+}
+
+
+/* Footer */
+
+footer {
+    color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    bottom: 17px;
+    width: 100%;
+    margin: 140px 0 10px 0;
+}
+
+footer a {
+    color: #bc2a45;
+    margin: 0 5px;
+}
