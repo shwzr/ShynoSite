@@ -16,7 +16,7 @@
 
 **Showzur**
 
-* SRV Discord: [Shynonime]([https://discord.gg/UHy8mZsNh8](https://shynonime.glitch.me/))
+* SRV Discord: [Shynonime](https://shynonime.glitch.me/)
 * Twitter: [@Showzur](https://twitter.com/Showzur)
 * Github: [@shwzr](https://github.com/shwzr)
 
