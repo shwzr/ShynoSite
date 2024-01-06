@@ -1,4 +1,4 @@
-<h1 align="center">ShynoSite 🌐</h1>
+<h1 align="center">ShynonimeSite 🌐</h1>
 
 <p>
   <a href="https://twitter.com/Showzur" target="_blank">
