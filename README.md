@@ -1,8 +1,8 @@
 <h1 align="center">Shynonime 🌐</h1>
 
 <p>
-  <a href="https://twitter.com/Showzur" target="_blank">
-    <img alt="Twitter: Showzur" src="https://img.shields.io/twitter/follow/Showzur.svg?style=social" />
+  <a href="https://twitter.com/Macxzew" target="_blank">
+    <img alt="Twitter: Macxzew" src="https://img.shields.io/twitter/follow/Macxzew.svg?style=social" />
   </a>
 </p>
 
@@ -14,10 +14,10 @@
 
 ## 👤 Author
 
-**Showzur**
+**Macxzew**
 
 * SRV Discord: [Shynonime](https://shynonime.glitch.me/)
-* Twitter: [@Showzur](https://twitter.com/Showzur)
+* Twitter: [@Macxzew](https://twitter.com/Macxzew)
 * Github: [@shwzr](https://github.com/shwzr)
 
 ## Show your support
@@ -26,7 +26,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2022 [Showzur](https://github.com/shwzr).<br />
+Copyright © 2022 [Macxzew](https://github.com/shwzr).<br />
 
 ***
  
