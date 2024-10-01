@@ -18,7 +18,7 @@
 
 * SRV Discord: [Shynonime](https://shynonime.glitch.me/)
 * Twitter: [@Macxzew](https://twitter.com/Macxzew)
-* Github: [@shwzr](https://github.com/shwzr)
+* Github: [@Macxzew](https://github.com/Macxzew)
 
 ## Show your support
 
@@ -26,7 +26,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2022 [Macxzew](https://github.com/shwzr).<br />
+Copyright © 2022 [Macxzew](https://github.com/Macxzew).<br />
 
 ***
  
